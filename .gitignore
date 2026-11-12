@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# matériel original de l’artiste (CV, originaux) : ne jamais publier ni servir
+/public/files/

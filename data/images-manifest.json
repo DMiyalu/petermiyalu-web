@@ -1,0 +1,505 @@
+{
+  "oeuvres": [
+    {
+      "slug": "ngoma",
+      "cover": {
+        "src": "/images/oeuvres/ngoma/ngoma-cover.jpg",
+        "width": 1225,
+        "height": 595
+      },
+      "images": [
+        {
+          "src": "/images/oeuvres/ngoma/ngoma-01.jpg",
+          "width": 1092,
+          "height": 611
+        }
+      ],
+      "sources": {
+        "ngoma-cover.jpg": "Ngoma/Capture d’écran 2026-11-04 à 14.04.22.png",
+        "ngoma-01.jpg": "Ngoma/Capture d’écran 2026-11-04 à 14.04.32.png"
+      }
+    },
+    {
+      "slug": "fil-rouge",
+      "cover": null,
+      "images": [],
+      "sources": {}
+    },
+    {
+      "slug": "choregraphie-des-villes",
+      "cover": null,
+      "images": []
+    },
+    {
+      "slug": "urban-rythms",
+      "cover": {
+        "src": "/images/oeuvres/urban-rythms/urban-rythms-cover.jpg",
+        "width": 2000,
+        "height": 1442
+      },
+      "images": [
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-01.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-02.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-03.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-04.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-05.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-06.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-07.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-08.jpg",
+          "width": 2000,
+          "height": 1220
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-09.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-10.jpg",
+          "width": 2000,
+          "height": 1309
+        },
+        {
+          "src": "/images/oeuvres/urban-rythms/urban-rythms-11.jpg",
+          "width": 2000,
+          "height": 1077
+        }
+      ],
+      "sources": {
+        "urban-rythms-cover.jpg": "Urban Rythms/IMG_7411.jpg",
+        "urban-rythms-01.jpg": "Urban Rythms/IMG_7315.jpg",
+        "urban-rythms-02.jpg": "Urban Rythms/IMG_7321.jpg",
+        "urban-rythms-03.jpg": "Urban Rythms/IMG_7396.jpg",
+        "urban-rythms-04.jpg": "Urban Rythms/IMG_7416.jpg",
+        "urban-rythms-05.jpg": "Urban Rythms/IMG_7328.jpg",
+        "urban-rythms-06.jpg": "Urban Rythms/XE0A5013.jpg",
+        "urban-rythms-07.jpg": "Urban Rythms/IMG_9164 copie.jpg",
+        "urban-rythms-08.jpg": "Urban Rythms/IMG_2997.jpg",
+        "urban-rythms-09.jpg": "Urban Rythms/IMG_8213.jpg",
+        "urban-rythms-10.jpg": "Urban Rythms/IMG_8215.jpg",
+        "urban-rythms-11.jpg": "Urban Rythms/IMG_8216.jpg"
+      }
+    },
+    {
+      "slug": "la-danse-du-matin",
+      "cover": null,
+      "images": [],
+      "sources": {}
+    },
+    {
+      "slug": "mutilation",
+      "cover": {
+        "src": "/images/oeuvres/mutilation/mutilation-cover.jpg",
+        "width": 2000,
+        "height": 1333
+      },
+      "images": [
+        {
+          "src": "/images/oeuvres/mutilation/mutilation-01.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/mutilation/mutilation-02.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/mutilation/mutilation-03.jpg",
+          "width": 2000,
+          "height": 1219
+        },
+        {
+          "src": "/images/oeuvres/mutilation/mutilation-04.jpg",
+          "width": 2000,
+          "height": 1333
+        },
+        {
+          "src": "/images/oeuvres/mutilation/mutilation-05.jpg",
+          "width": 550,
+          "height": 397
+        },
+        {
+          "src": "/images/oeuvres/mutilation/mutilation-06.jpg",
+          "width": 554,
+          "height": 399
+        }
+      ],
+      "sources": {
+        "mutilation-cover.jpg": "Mutilation/IMG_0447.jpg",
+        "mutilation-01.jpg": "Mutilation/IMG_0448.jpg",
+        "mutilation-02.jpg": "Mutilation/IMG_0449.jpg",
+        "mutilation-03.jpg": "Mutilation/IMG_0453.jpg",
+        "mutilation-04.jpg": "Mutilation/IMG_0455.jpg",
+        "mutilation-05.jpg": "Mutilation/Capture d’écran 2026-11-04 à 14.01.54.png",
+        "mutilation-06.jpg": "Mutilation/Capture d’écran 2026-11-04 à 14.02.03.png"
+      }
+    },
+    {
+      "slug": "tala-ngai",
+      "cover": {
+        "src": "/images/oeuvres/tala-ngai/tala-ngai-cover.jpg",
+        "width": 2000,
+        "height": 3001
+      },
+      "images": [
+        {
+          "src": "/images/oeuvres/tala-ngai/tala-ngai-01.jpg",
+          "width": 2000,
+          "height": 3001
+        }
+      ],
+      "sources": {
+        "tala-ngai-cover.jpg": "tala ngai/f3d6597fdb58dbee6a80cee0018ae36b.JPEG",
+        "tala-ngai-01.jpg": "tala ngai/IMG_9086.JPG"
+      }
+    },
+    {
+      "slug": "performance-1",
+      "cover": {
+        "src": "/images/oeuvres/performance-1/performance-1-cover.jpg",
+        "width": 2000,
+        "height": 1335
+      },
+      "images": [
+        {
+          "src": "/images/oeuvres/performance-1/performance-1-01.jpg",
+          "width": 2000,
+          "height": 1335
+        },
+        {
+          "src": "/images/oeuvres/performance-1/performance-1-02.jpg",
+          "width": 2000,
+          "height": 1335
+        },
+        {
+          "src": "/images/oeuvres/performance-1/performance-1-03.jpg",
+          "width": 2000,
+          "height": 1335
+        },
+        {
+          "src": "/images/oeuvres/performance-1/performance-1-04.jpg",
+          "width": 2000,
+          "height": 1335
+        },
+        {
+          "src": "/images/oeuvres/performance-1/performance-1-05.jpg",
+          "width": 2000,
+          "height": 3018
+        },
+        {
+          "src": "/images/oeuvres/performance-1/performance-1-06.jpg",
+          "width": 2000,
+          "height": 3205
+        }
+      ],
+      "sources": {
+        "performance-1-cover.jpg": "Performance 1/IMG_3317.JPG",
+        "performance-1-01.jpg": "Performance 1/IMG_3314.JPG",
+        "performance-1-02.jpg": "Performance 1/IMG_3315.JPG",
+        "performance-1-03.jpg": "Performance 1/IMG_3316.JPG",
+        "performance-1-04.jpg": "Performance 1/IMG_3318.JPG",
+        "performance-1-05.jpg": "Performance 1/IMG_4350.jpg",
+        "performance-1-06.jpg": "Performance 1/IMG_4351.JPG"
+      }
+    },
+    {
+      "slug": "performance-2",
+      "cover": {
+        "src": "/images/oeuvres/performance-2/performance-2-cover.jpg",
+        "width": 2000,
+        "height": 1147
+      },
+      "images": [
+        {
+          "src": "/images/oeuvres/performance-2/performance-2-01.jpg",
+          "width": 2000,
+          "height": 1119
+        },
+        {
+          "src": "/images/oeuvres/performance-2/performance-2-02.jpg",
+          "width": 2000,
+          "height": 1202
+        },
+        {
+          "src": "/images/oeuvres/performance-2/performance-2-03.jpg",
+          "width": 2000,
+          "height": 1293
+        },
+        {
+          "src": "/images/oeuvres/performance-2/performance-2-04.jpg",
+          "width": 2000,
+          "height": 1066
+        }
+      ],
+      "sources": {
+        "performance-2-cover.jpg": "Performance 2/IMG_2937.jpg",
+        "performance-2-01.jpg": "Performance 2/IMG_2932.jpg",
+        "performance-2-02.jpg": "Performance 2/IMG_2935.jpg",
+        "performance-2-03.jpg": "Performance 2/IMG_2936.PNG",
+        "performance-2-04.jpg": "Performance 2/IMG_2938.jpg"
+      }
+    },
+    {
+      "slug": "performance-3",
+      "cover": {
+        "src": "/images/oeuvres/performance-3/performance-3-cover.jpg",
+        "width": 1350,
+        "height": 900
+      },
+      "images": [
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-01.jpg",
+          "width": 1350,
+          "height": 1237
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-02.jpg",
+          "width": 1350,
+          "height": 1120
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-03.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-04.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-05.jpg",
+          "width": 1350,
+          "height": 1002
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-06.jpg",
+          "width": 1350,
+          "height": 936
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-07.jpg",
+          "width": 691,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-08.jpg",
+          "width": 865,
+          "height": 1350
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-09.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-10.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-11.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-12.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-13.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-14.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-15.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-16.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-17.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-18.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-19.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-20.jpg",
+          "width": 1350,
+          "height": 900
+        },
+        {
+          "src": "/images/oeuvres/performance-3/performance-3-21.jpg",
+          "width": 1350,
+          "height": 900
+        }
+      ],
+      "sources": {
+        "performance-3-cover.jpg": "perfomance 3/IMG_4082.JPG",
+        "performance-3-01.jpg": "perfomance 3/IMG_4034.JPG",
+        "performance-3-02.jpg": "perfomance 3/IMG_4041 2.JPG",
+        "performance-3-03.jpg": "perfomance 3/IMG_4052.JPG",
+        "performance-3-04.jpg": "perfomance 3/IMG_4053.JPG",
+        "performance-3-05.jpg": "perfomance 3/IMG_4058.JPG",
+        "performance-3-06.jpg": "perfomance 3/IMG_4059.JPG",
+        "performance-3-07.jpg": "perfomance 3/IMG_4064.jpg",
+        "performance-3-08.jpg": "perfomance 3/IMG_4071 2.JPG",
+        "performance-3-09.jpg": "perfomance 3/IMG_4077.JPG",
+        "performance-3-10.jpg": "perfomance 3/IMG_4081.JPG",
+        "performance-3-11.jpg": "perfomance 3/IMG_4086.JPG",
+        "performance-3-12.jpg": "perfomance 3/IMG_4089.JPG",
+        "performance-3-13.jpg": "perfomance 3/IMG_4091.JPG",
+        "performance-3-14.jpg": "perfomance 3/IMG_4092.JPG",
+        "performance-3-15.jpg": "perfomance 3/IMG_4096.JPG",
+        "performance-3-16.jpg": "perfomance 3/IMG_4097.JPG",
+        "performance-3-17.jpg": "perfomance 3/IMG_4099.JPG",
+        "performance-3-18.jpg": "perfomance 3/IMG_4100.JPG",
+        "performance-3-19.jpg": "perfomance 3/IMG_4101.JPG",
+        "performance-3-20.jpg": "perfomance 3/IMG_4102.JPG",
+        "performance-3-21.jpg": "perfomance 3/IMG_4103.JPG"
+      }
+    },
+    {
+      "slug": "serie-photo-qualifie",
+      "cover": {
+        "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-cover.jpg",
+        "width": 2000,
+        "height": 3000
+      },
+      "images": [
+        {
+          "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-01.jpg",
+          "width": 2000,
+          "height": 3000
+        },
+        {
+          "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-02.jpg",
+          "width": 2000,
+          "height": 3000
+        },
+        {
+          "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-03.jpg",
+          "width": 2000,
+          "height": 1500
+        },
+        {
+          "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-04.jpg",
+          "width": 2000,
+          "height": 1218
+        },
+        {
+          "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-05.jpg",
+          "width": 2000,
+          "height": 2667
+        },
+        {
+          "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-06.jpg",
+          "width": 2000,
+          "height": 2667
+        },
+        {
+          "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-07.jpg",
+          "width": 2000,
+          "height": 3101
+        },
+        {
+          "src": "/images/oeuvres/serie-photo-qualifie/serie-photo-qualifie-08.jpg",
+          "width": 2000,
+          "height": 1215
+        }
+      ],
+      "sources": {
+        "serie-photo-qualifie-cover.jpg": "Serie Photo Qualifié/Sans titre-1 copie.jpg",
+        "serie-photo-qualifie-01.jpg": "Serie Photo Qualifié/Sans titre-2 copie.jpg",
+        "serie-photo-qualifie-02.jpg": "Serie Photo Qualifié/Sans titre-2.jpg",
+        "serie-photo-qualifie-03.jpg": "Serie Photo Qualifié/IMG_5566.heic",
+        "serie-photo-qualifie-04.jpg": "Serie Photo Qualifié/IMG_5666.heic",
+        "serie-photo-qualifie-05.jpg": "Serie Photo Qualifié/IMG_5568.HEIC",
+        "serie-photo-qualifie-06.jpg": "Serie Photo Qualifié/IMG_5664.heic",
+        "serie-photo-qualifie-07.jpg": "Serie Photo Qualifié/IMG_5616.heic",
+        "serie-photo-qualifie-08.jpg": "Serie Photo Qualifié/IMG_5639.heic"
+      }
+    }
+  ],
+  "profil": [
+    {
+      "src": "/images/profil/portrait-01.jpg",
+      "width": 2000,
+      "height": 3000,
+      "source": "Photo portrait/IMG_8889.JPG"
+    },
+    {
+      "src": "/images/profil/portrait-02.jpg",
+      "width": 2000,
+      "height": 2804,
+      "source": "Photo portrait/IMG_8891.JPG"
+    },
+    {
+      "src": "/images/profil/portrait-03.jpg",
+      "width": 2000,
+      "height": 3108,
+      "source": "Photo portrait/IMG_8892.JPG"
+    },
+    {
+      "src": "/images/profil/portrait-04.jpg",
+      "width": 2000,
+      "height": 3000,
+      "source": "Photo portrait/IMG_3604.JPG"
+    },
+    {
+      "src": "/images/profil/portrait-05.jpg",
+      "width": 2000,
+      "height": 2997,
+      "source": "Photo portrait/DSC_4279.jpg"
+    }
+  ]
+}

@@ -1,26 +1,73 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Reprise des valeurs du site d’origine (style.css) */
+@theme {
+  --color-cream: #f3eee5;
+  --color-ink: #0b0c0b;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  /* Le site d’origine bascule en mobile sous 700 px */
+  --breakpoint-md: 43.8125rem; /* 701px */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: var(--color-ink);
+  color: var(--color-cream);
+  font: 15px/1.65 var(--font-sans);
+}
+
+button {
+  cursor: pointer;
+}
+
+dialog::backdrop {
+  background: #000c;
+}
+
+/* Titres de section en Georgia, comme l’original */
+.section-title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(40px, 5vw, 70px);
+  line-height: 1.04;
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.textlink {
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #888;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  transition: border-color 0.3s;
+}
+.textlink:hover {
+  border-color: currentColor;
+}
+.textlink b {
+  margin-left: 25px;
+  font-weight: 400;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+  }
 }
