@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export const navigation = [
   { href: "#accueil", label: "Accueil" },
@@ -11,11 +11,51 @@ export const navigation = [
   { href: "#contact", label: "Contact" },
 ];
 
+/** Écart minimal de défilement (px) avant de masquer ou réafficher le header. */
+const SEUIL = 6;
+
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [cache, setCache] = useState(false);
+  const [enHaut, setEnHaut] = useState(true);
+  const dernierY = useRef(0);
+
+  useEffect(() => {
+    let frame = 0;
+    const onScroll = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => {
+        const y = window.scrollY;
+        const delta = y - dernierY.current;
+        setEnHaut(y < 80);
+        if (y < 80) setCache(false);
+        else if (delta > SEUIL) setCache(true); // on descend : on masque
+        else if (delta < -SEUIL) setCache(false); // on remonte : on réaffiche
+        if (Math.abs(delta) > SEUIL) dernierY.current = y;
+      });
+    };
+    dernierY.current = window.scrollY;
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []);
+
+  // Le menu mobile ouvert garde le header visible.
+  const masque = cache && !open;
 
   return (
-    <header className="absolute z-10 flex h-[65px] w-full items-center gap-[30px] bg-[#080909aa] px-[5%] md:h-[78px] md:bg-transparent md:bg-[linear-gradient(#0007,transparent)]">
+    <header
+      className={`fixed inset-x-0 top-0 z-20 flex h-[65px] items-center gap-[30px] px-[5%] transition-[transform,background-color] duration-300 md:h-[78px] ${
+        masque ? "-translate-y-full" : "translate-y-0"
+      } ${
+        enHaut
+          ? "bg-[#080909aa] md:bg-transparent md:bg-[linear-gradient(#0007,transparent)]"
+          : "bg-[#080909e6] backdrop-blur-sm"
+      }`}
+    >
       <a href="#accueil" className="text-xs tracking-[1px]">
         PETER MIYALU
       </a>

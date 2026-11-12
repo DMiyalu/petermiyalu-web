@@ -6,6 +6,7 @@ import APropos from "@/components/APropos";
 import Actualites from "@/components/Actualites";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import RetourEnHaut from "@/components/RetourEnHaut";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <RetourEnHaut />
     </>
   );
 }

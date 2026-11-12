@@ -6,9 +6,7 @@ export default function Footer() {
         <small className="mt-[5px] block text-[10px] text-[#aaa]">Artiste visuel & Cinéaste</small>
       </p>
       <span>Kinshasa · Québec · Worldwide</span>
-      <a href="#accueil" className="text-[9px] tracking-[1px] hover:underline">
-        RETOUR EN HAUT ↑
-      </a>
+      {/* « Retour en haut » : bouton flottant, voir RetourEnHaut.tsx */}
     </footer>
   );
 }
